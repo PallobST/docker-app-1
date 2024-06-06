@@ -10,7 +10,7 @@ app.use(cors());
 const PORT = 3000;
 const data = {
     name:"jahid",
-    course:"docker",
+    course:"dockers",
 }
 
 // routes
