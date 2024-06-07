@@ -7,10 +7,10 @@ const app = express();
 app.use(cors());
 
 // variables
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const data = {
-    name:"jahid",
-    course:"dockers",
+    name:"jahidhasan",
+    course:"docker",
 }
 
 // routes
